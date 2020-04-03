@@ -41,7 +41,7 @@ class QuotesList extends Component {
 	}
 
 	addQuote = () => {
-		this.props.history.push('/quotes/add');
+		this.props.history.push('/cinemaQuotes/quotes/add');
 	};
 	quoteDeleteHandler = async id => {
 		await axios.delete(`/quotes/${id}.json`);
