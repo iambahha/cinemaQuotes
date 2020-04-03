@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "804d46688eac5cb8d220011c05ee3473",
+    "revision": "9bdd65473097a757388012d0d6d0e755",
     "url": "/cinemaQuotes/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinemaQuotes/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "4dc1ed011cd1fae1a23a",
+    "revision": "a9deec6e2bc1c517463f",
     "url": "/cinemaQuotes/static/css/main.b0ac08ec.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cinemaQuotes/static/js/2.2a448081.chunk.js.LICENSE"
   },
   {
-    "revision": "4dc1ed011cd1fae1a23a",
-    "url": "/cinemaQuotes/static/js/main.aed360a3.chunk.js"
+    "revision": "a9deec6e2bc1c517463f",
+    "url": "/cinemaQuotes/static/js/main.37a22d21.chunk.js"
   },
   {
     "revision": "810cba359bc7f7f258f9",
