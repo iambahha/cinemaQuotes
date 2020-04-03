@@ -12,10 +12,10 @@ function App() {
           <Navigation />
           <div className="container mt-5">
               <Switch >
-                  <Route path="/" exact component={QuotesList}/>
-                  <Route path="/quotes/add" component={AddQuote}/>
-                  <Route path="/quotes-edit/:id" component={EditQuote}/>
-                  <Route path="/quotes/:category" component={QuotesList}/>
+                  <Route path="/cinemaQuotes" exact component={QuotesList}/>
+                  <Route path="/cinemaQuotes/quotes/add" component={AddQuote}/>
+                  <Route path="/cinemaQuotes/quotes-edit/:id" component={EditQuote}/>
+                  <Route path="/cinemaQuotes/quotes/:category" component={QuotesList}/>
               </Switch>
           </div>
         </BrowserRouter>
