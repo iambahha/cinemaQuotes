@@ -14,15 +14,15 @@ class EditQuote extends Component {
 
 	async componentDidMount() {
 		let id = this.props.match.params.id;
-		let response = await axios.get('/cinemaQuotes/quotes/' + id + '.json');
+		let response = await axios.get('/quotes/' + id + '.json');
 		this.setState({quote: response.data});
 	}
 
 	EditQuote = async (event) => {
 		let id = this.props.match.params.id;
 		event.preventDefault();
-		await axios.put('/cinemaQuotes/quotes/' + id + '.json', this.state.quote);
-		this.props.history.push('/');
+		await axios.put('/quotes/' + id + '.json', this.state.quote);
+		this.props.history.push('/cinemaQuotes/');
 	};
 	inputChangeHandler = event => {
 		event.persist();

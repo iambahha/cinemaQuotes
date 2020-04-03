@@ -7,12 +7,12 @@ const Categories = () => {
 	return (
 		<ul className="navs">
 			<li className="nav-item mr-5">
-				<NavLink to="/" exact>All</NavLink>
+				<NavLink to="/cinemaQuotes/" exact>All</NavLink>
 			</li>
 			{constants.categories.map(category => {
 				return (
 					<li key={category.id} className="nav-item mr-5">
-						<NavLink to={'/quotes/' + category.id}>{category.title}</NavLink>
+						<NavLink to={'/cinemaQuotes/quotes/' + category.id}>{category.title}</NavLink>
 					</li>
 				)
 			})}

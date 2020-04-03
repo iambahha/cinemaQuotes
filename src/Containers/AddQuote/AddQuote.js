@@ -16,9 +16,9 @@ class AddQuote extends Component {
 	AddPostHandler = async (event) => {
 		event.preventDefault();
 		this.setState({loading: true});
-		await axios.post('/cinemaQuotes/quotes.json', this.state.quote);
+		await axios.post('/quotes.json', this.state.quote);
 		this.setState({loading: false});
-		this.props.history.push('/');
+		this.props.history.push('/cinemaQuotes/');
 	};
 	inputChangeHandler = event => {
 		event.persist();
