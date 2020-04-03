@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/cinemaQuotes/static/css/main.b0ac08ec.chunk.css",
-    "main.js": "/cinemaQuotes/static/js/main.51cda094.chunk.js",
-    "main.js.map": "/cinemaQuotes/static/js/main.51cda094.chunk.js.map",
+    "main.js": "/cinemaQuotes/static/js/main.fc5099ad.chunk.js",
+    "main.js.map": "/cinemaQuotes/static/js/main.fc5099ad.chunk.js.map",
     "runtime-main.js": "/cinemaQuotes/static/js/runtime-main.4d4ef68e.js",
     "runtime-main.js.map": "/cinemaQuotes/static/js/runtime-main.4d4ef68e.js.map",
     "static/css/2.17e5ed98.chunk.css": "/cinemaQuotes/static/css/2.17e5ed98.chunk.css",
     "static/js/2.2a448081.chunk.js": "/cinemaQuotes/static/js/2.2a448081.chunk.js",
     "static/js/2.2a448081.chunk.js.map": "/cinemaQuotes/static/js/2.2a448081.chunk.js.map",
     "index.html": "/cinemaQuotes/index.html",
-    "precache-manifest.707dbe0fb60eb9a018dbbea762b38e68.js": "/cinemaQuotes/precache-manifest.707dbe0fb60eb9a018dbbea762b38e68.js",
+    "precache-manifest.cd573ab989d5ae54202edc07e5fcad07.js": "/cinemaQuotes/precache-manifest.cd573ab989d5ae54202edc07e5fcad07.js",
     "service-worker.js": "/cinemaQuotes/service-worker.js",
     "static/css/2.17e5ed98.chunk.css.map": "/cinemaQuotes/static/css/2.17e5ed98.chunk.css.map",
     "static/css/main.b0ac08ec.chunk.css.map": "/cinemaQuotes/static/css/main.b0ac08ec.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.17e5ed98.chunk.css",
     "static/js/2.2a448081.chunk.js",
     "static/css/main.b0ac08ec.chunk.css",
-    "static/js/main.51cda094.chunk.js"
+    "static/js/main.fc5099ad.chunk.js"
   ]
 }
