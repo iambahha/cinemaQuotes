@@ -13,7 +13,7 @@ class QuotesList extends Component {
         category : null
     };
     _getAllPosts = async () => {
-        let url = '/quotes.json';
+        let url = '/cinemaQuotes/quotes.json';
         let category = this.props.match.params.category;
         if(category){
             url += '?orderBy="category"&equalTo="'+ category +'"';
@@ -40,17 +40,17 @@ class QuotesList extends Component {
         }
     }
     addQuote = () => {
-        this.props.history.push('/quotes/add');
+        this.props.history.push('/cinemaQuotes/quotes/add');
     };
     quoteDeleteHandler = async id => {
-        await axios.delete(`/quotes/${id}.json`);
+        await axios.delete(`/cinemaQuotes/quotes/${id}.json`);
         let copyQuote = [...this.state.quotes];
         let index = copyQuote.findIndex(quote => id === quote.id);
         copyQuote.splice(index,1);
         this.setState({quotes : copyQuote});
     };
     quoteEditHandler = id => {
-        this.props.history.push('/quotes-edit/' + id);
+        this.props.history.push('/cinemaQuotes/quotes-edit/' + id);
     };
 
     render() {
